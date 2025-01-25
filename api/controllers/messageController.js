@@ -23,31 +23,53 @@ export const verifyWebhook = (req, res) => {
 
 export const handleWebhook = (req, res) => {
     const body = req.body;
+    logger.info(`Received a new webhook event: ${JSON.stringify(body)}`);
 
     if (body.object) {
         body.entry.forEach((entry) => {
-            const changes = entry.changes;
+            const { id, changes } = entry;
             changes.forEach((change) => {
-                const value = change.value;
-                if (value.messages) {
-                    const message = value.messages[0];
-                    const from = message.from;
-                    const text = message.text.body;
-                    const id = message.id;
-                    messages.push({ from, text, id });
+                const { field, value } = change;
 
-                    logger.info(`New message from ${from}: ${text}`);
-                } else if (value.statuses) {
-                    const status = value.statuses[0];
-                    const messageId = status.id;
-                    const statusText = status.status;
-                    const timestamp = status.timestamp;
+                switch (field) {
+                    case "messages":
+                        if (value.messages) {
+                            const message = value.messages[0];
+                            const from = message.from;
+                            const text = message.text.body;
+                            const id = message.id;
+                            messages.push({ from, text, id });
 
-                    logger.info(
-                        `Message ID ${messageId} status: ${statusText} at ${timestamp}`
-                    );
+                            logger.info(`New message from ${from}: ${text}`);
+                        }
+                        break;
+                    case "statuses":
+                        if (value.statuses) {
+                            const status = value.statuses[0];
+                            const messageId = status.id;
+                            const statusText = status.status;
+                            const timestamp = status.timestamp;
+
+                            logger.info(
+                                `Message ID ${messageId} status: ${statusText} at ${timestamp}`
+                            );
+                        }
+                        break;
+
+                    case "photos":
+                        const { vreb, object_id: objectId } = value;
+
+                        logger.info(
+                            `Photo event: ${vreb} with object ID ${objectId}`
+                        );
+                        break;
+
+                    default:
+                        logger.warn(`Unknown field: ${field}`);
+                        break;
                 }
             });
+            logger.info(`Processed entry with ID: ${id}`);
         });
 
         res.sendStatus(200);
