@@ -1,0 +1,206 @@
+2025-01-24 21:58:12 [32minfo[39m: GET /
+2025-01-24 21:58:44 [32minfo[39m: GET /
+2025-01-24 21:59:02 [32minfo[39m: GET /webhook
+2025-01-24 21:59:02 [32minfo[39m: Webhook verified successfully
+2025-01-24 21:59:41 [32minfo[39m: POST /webhook
+2025-01-24 21:59:41 [32minfo[39m: New message from 96566768204: Hello There!
+2025-01-24 22:04:03 [32minfo[39m: GET /
+2025-01-24 22:04:28 [32minfo[39m: POST /webhook
+2025-01-24 22:04:28 [33mwarn[39m: No messages found in the request
+2025-01-24 22:05:49 [32minfo[39m: GET /api/messages
+2025-01-24 22:05:49 [32minfo[39m: Fetching all messages
+2025-01-24 22:05:49 [32minfo[39m: GET /favicon.ico
+2025-01-24 22:05:56 [32minfo[39m: POST /webhook
+2025-01-24 22:05:56 [32minfo[39m: New message from 96566768204: Hi There
+2025-01-24 22:05:56 [32minfo[39m: GET /api/messages
+2025-01-24 22:05:56 [32minfo[39m: Fetching all messages
+2025-01-24 22:06:13 [32minfo[39m: POST /webhook
+2025-01-24 22:06:13 [32minfo[39m: New message from 96566768204: Anyone? 😅
+2025-01-24 22:06:13 [32minfo[39m: GET /api/messages
+2025-01-24 22:06:13 [32minfo[39m: Fetching all messages
+2025-01-24 22:06:38 [32minfo[39m: POST /webhook
+2025-01-24 22:06:38 [32minfo[39m: New message from 96566768204: MULTI LINE TEST:
+1- One
+2- Two
+3- Three
+
+Is this good?!
+2025-01-24 22:06:38 [32minfo[39m: GET /api/messages
+2025-01-24 22:06:38 [32minfo[39m: Fetching all messages
+2025-01-24 22:07:54 [32minfo[39m: GET /api/messages
+2025-01-24 22:07:54 [32minfo[39m: Fetching all messages
+2025-01-24 22:15:21 [32minfo[39m: POST /webhook
+2025-01-24 22:15:21 [33mwarn[39m: No messages found in the request
+2025-01-24 22:15:22 [32minfo[39m: POST /webhook
+2025-01-24 22:15:22 [33mwarn[39m: No messages found in the request
+2025-01-24 22:17:54 [32minfo[39m: POST /api/messages
+2025-01-24 22:17:55 [32minfo[39m: Sending message to 96566768204: HELLO FROM CUSTOM API
+2025-01-24 22:21:58 [32minfo[39m: POST /api/messages
+2025-01-24 22:21:59 [31merror[39m: Failed to send message to 96566768204: undefined
+2025-01-24 22:21:59 [31merror[39m: Failed to send message to 96566768204: Invalid status code: undefined
+2025-01-24 22:25:51 [32minfo[39m: POST /api/messages
+2025-01-24 22:25:51 [31merror[39m: Failed to send message to 96566768204: undefined
+2025-01-24 22:25:51 [31merror[39m: Failed to send message to 96566768204: Invalid status code: undefined
+2025-01-24 22:25:57 [32minfo[39m: POST /webhook
+2025-01-24 22:25:57 [33mwarn[39m: No messages found in the request
+2025-01-24 22:25:57 [32minfo[39m: POST /webhook
+2025-01-24 22:25:57 [33mwarn[39m: No messages found in the request
+2025-01-24 22:25:59 [32minfo[39m: POST /webhook
+2025-01-24 22:25:59 [33mwarn[39m: No messages found in the request
+2025-01-24 22:26:00 [32minfo[39m: POST /webhook
+2025-01-24 22:26:00 [33mwarn[39m: No messages found in the request
+2025-01-24 22:26:01 [32minfo[39m: POST /webhook
+2025-01-24 22:26:01 [33mwarn[39m: No messages found in the request
+2025-01-24 22:26:01 [32minfo[39m: POST /webhook
+2025-01-24 22:26:01 [33mwarn[39m: No messages found in the request
+2025-01-24 22:26:04 [32minfo[39m: POST /webhook
+2025-01-24 22:26:04 [33mwarn[39m: No messages found in the request
+2025-01-24 22:26:04 [32minfo[39m: POST /webhook
+2025-01-24 22:26:04 [33mwarn[39m: No messages found in the request
+2025-01-24 22:26:14 [32minfo[39m: POST /webhook
+2025-01-24 22:26:14 [33mwarn[39m: No messages found in the request
+2025-01-24 22:26:15 [32minfo[39m: POST /webhook
+2025-01-24 22:26:15 [33mwarn[39m: No messages found in the request
+2025-01-24 22:26:16 [32minfo[39m: POST /webhook
+2025-01-24 22:26:16 [33mwarn[39m: No messages found in the request
+2025-01-24 22:26:18 [32minfo[39m: POST /webhook
+2025-01-24 22:26:18 [33mwarn[39m: No messages found in the request
+2025-01-24 22:26:29 [32minfo[39m: POST /webhook
+2025-01-24 22:26:29 [33mwarn[39m: No messages found in the request
+2025-01-24 22:26:31 [32minfo[39m: POST /webhook
+2025-01-24 22:26:31 [33mwarn[39m: No messages found in the request
+2025-01-24 22:26:43 [32minfo[39m: POST /webhook
+2025-01-24 22:26:43 [33mwarn[39m: No messages found in the request
+2025-01-24 22:28:19 [32minfo[39m: POST /api/messages
+2025-01-24 22:28:19 [32minfo[39m: [object Promise]
+2025-01-24 22:28:19 [31merror[39m: Failed to send message to 96566768204: undefined
+2025-01-24 22:28:19 [31merror[39m: Failed to send message to 96566768204: Invalid status code: undefined
+2025-01-24 22:28:22 [32minfo[39m: POST /webhook
+2025-01-24 22:28:22 [33mwarn[39m: No messages found in the request
+2025-01-24 22:28:22 [32minfo[39m: POST /webhook
+2025-01-24 22:28:22 [33mwarn[39m: No messages found in the request
+2025-01-24 22:28:23 [32minfo[39m: POST /webhook
+2025-01-24 22:28:23 [33mwarn[39m: No messages found in the request
+2025-01-24 22:28:23 [32minfo[39m: POST /webhook
+2025-01-24 22:28:23 [33mwarn[39m: No messages found in the request
+2025-01-24 22:28:23 [32minfo[39m: POST /webhook
+2025-01-24 22:28:23 [33mwarn[39m: No messages found in the request
+2025-01-24 22:28:24 [32minfo[39m: POST /webhook
+2025-01-24 22:28:24 [33mwarn[39m: No messages found in the request
+2025-01-24 22:28:26 [32minfo[39m: POST /webhook
+2025-01-24 22:28:26 [33mwarn[39m: No messages found in the request
+2025-01-24 22:28:26 [32minfo[39m: POST /webhook
+2025-01-24 22:28:26 [33mwarn[39m: No messages found in the request
+2025-01-24 22:28:49 [32minfo[39m: POST /webhook
+2025-01-24 22:28:49 [33mwarn[39m: No messages found in the request
+2025-01-24 22:28:51 [32minfo[39m: POST /webhook
+2025-01-24 22:28:51 [33mwarn[39m: No messages found in the request
+2025-01-24 22:29:12 [32minfo[39m: POST /api/messages
+2025-01-24 22:29:12 [31merror[39m: Failed to send message to 96566768204: response.toJS is not a function
+2025-01-24 22:29:17 [32minfo[39m: POST /webhook
+2025-01-24 22:29:17 [33mwarn[39m: No messages found in the request
+2025-01-24 22:29:20 [32minfo[39m: POST /webhook
+2025-01-24 22:29:20 [33mwarn[39m: No messages found in the request
+2025-01-24 22:29:23 [32minfo[39m: POST /webhook
+2025-01-24 22:29:23 [33mwarn[39m: No messages found in the request
+2025-01-24 22:29:24 [32minfo[39m: POST /webhook
+2025-01-24 22:29:24 [33mwarn[39m: No messages found in the request
+2025-01-24 22:29:24 [32minfo[39m: POST /webhook
+2025-01-24 22:29:24 [33mwarn[39m: No messages found in the request
+2025-01-24 22:29:25 [32minfo[39m: POST /webhook
+2025-01-24 22:29:25 [33mwarn[39m: No messages found in the request
+2025-01-24 22:29:26 [32minfo[39m: POST /webhook
+2025-01-24 22:29:26 [33mwarn[39m: No messages found in the request
+2025-01-24 22:29:26 [32minfo[39m: POST /webhook
+2025-01-24 22:29:26 [33mwarn[39m: No messages found in the request
+2025-01-24 22:29:29 [32minfo[39m: POST /webhook
+2025-01-24 22:29:29 [33mwarn[39m: No messages found in the request
+2025-01-24 22:29:50 [32minfo[39m: POST /webhook
+2025-01-24 22:29:50 [33mwarn[39m: No messages found in the request
+2025-01-24 22:29:55 [32minfo[39m: POST /webhook
+2025-01-24 22:29:55 [33mwarn[39m: No messages found in the request
+2025-01-24 22:32:30 [32minfo[39m: POST /webhook
+2025-01-24 22:32:30 [33mwarn[39m: No messages found in the request
+2025-01-24 22:32:34 [32minfo[39m: POST /webhook
+2025-01-24 22:32:34 [33mwarn[39m: No messages found in the request
+2025-01-24 22:32:34 [32minfo[39m: POST /webhook
+2025-01-24 22:32:34 [33mwarn[39m: No messages found in the request
+2025-01-24 22:32:35 [32minfo[39m: POST /webhook
+2025-01-24 22:32:35 [33mwarn[39m: No messages found in the request
+2025-01-24 22:32:35 [32minfo[39m: POST /webhook
+2025-01-24 22:32:35 [33mwarn[39m: No messages found in the request
+2025-01-24 22:32:36 [32minfo[39m: POST /webhook
+2025-01-24 22:32:36 [33mwarn[39m: No messages found in the request
+2025-01-24 22:32:36 [32minfo[39m: POST /webhook
+2025-01-24 22:32:36 [33mwarn[39m: No messages found in the request
+2025-01-24 22:32:38 [32minfo[39m: POST /webhook
+2025-01-24 22:32:38 [33mwarn[39m: No messages found in the request
+2025-01-24 22:32:38 [32minfo[39m: POST /webhook
+2025-01-24 22:32:38 [33mwarn[39m: No messages found in the request
+2025-01-24 22:32:41 [32minfo[39m: POST /webhook
+2025-01-24 22:32:41 [33mwarn[39m: No messages found in the request
+2025-01-24 22:33:03 [32minfo[39m: POST /webhook
+2025-01-24 22:33:03 [33mwarn[39m: No messages found in the request
+2025-01-24 22:33:04 [32minfo[39m: POST /webhook
+2025-01-24 22:33:04 [33mwarn[39m: No messages found in the request
+2025-01-24 22:33:05 [32minfo[39m: POST /webhook
+2025-01-24 22:33:05 [33mwarn[39m: No messages found in the request
+2025-01-24 22:35:27 [32minfo[39m: POST /webhook
+2025-01-24 22:35:27 [33mwarn[39m: No messages found in the request
+2025-01-24 22:35:29 [32minfo[39m: POST /webhook
+2025-01-24 22:35:29 [33mwarn[39m: No messages found in the request
+2025-01-24 22:35:45 [32minfo[39m: POST /webhook
+2025-01-24 22:35:45 [33mwarn[39m: No messages found in the request
+2025-01-24 22:36:45 [32minfo[39m: POST /webhook
+2025-01-24 22:36:45 [33mwarn[39m: No messages found in the request
+2025-01-24 22:39:22 [32minfo[39m: POST /webhook
+2025-01-24 22:39:22 [33mwarn[39m: No messages found in the request
+2025-01-24 22:39:55 [32minfo[39m: POST /webhook
+2025-01-24 22:39:55 [33mwarn[39m: No messages found in the request
+2025-01-25 08:00:37 [32minfo[39m: GET /api/messages
+2025-01-25 08:00:37 [32minfo[39m: Fetching all messages
+2025-01-25 08:00:54 [32minfo[39m: POST /api/messages
+2025-01-25 08:00:54 [32minfo[39m: {}
+2025-01-25 08:00:54 [31merror[39m: Failed to send message to 96566768204: undefined
+2025-01-25 08:00:54 [31merror[39m: Failed to send message to 96566768204: Invalid status code: undefined
+2025-01-25 08:02:40 [32minfo[39m: POST /api/messages
+2025-01-25 08:02:40 [32minfo[39m: {}
+2025-01-25 08:02:40 [31merror[39m: Failed to send message to 96566768204: undefined
+2025-01-25 08:02:40 [31merror[39m: Failed to send message to 96566768204: Invalid status code: undefined
+2025-01-25 08:02:43 [32minfo[39m: POST /webhook
+2025-01-25 08:02:43 [33mwarn[39m: No messages found in the request
+2025-01-25 08:02:43 [32minfo[39m: POST /webhook
+2025-01-25 08:02:43 [33mwarn[39m: No messages found in the request
+2025-01-25 08:02:43 [32minfo[39m: POST /webhook
+2025-01-25 08:02:43 [33mwarn[39m: No messages found in the request
+2025-01-25 08:02:44 [32minfo[39m: POST /webhook
+2025-01-25 08:02:44 [33mwarn[39m: No messages found in the request
+2025-01-25 08:02:44 [32minfo[39m: POST /webhook
+2025-01-25 08:02:44 [33mwarn[39m: No messages found in the request
+2025-01-25 08:02:45 [32minfo[39m: POST /webhook
+2025-01-25 08:02:45 [33mwarn[39m: No messages found in the request
+2025-01-25 08:02:45 [32minfo[39m: POST /webhook
+2025-01-25 08:02:45 [33mwarn[39m: No messages found in the request
+2025-01-25 08:02:47 [32minfo[39m: POST /webhook
+2025-01-25 08:02:47 [33mwarn[39m: No messages found in the request
+2025-01-25 08:02:48 [32minfo[39m: POST /webhook
+2025-01-25 08:02:48 [33mwarn[39m: No messages found in the request
+2025-01-25 08:03:12 [32minfo[39m: POST /webhook
+2025-01-25 08:03:12 [33mwarn[39m: No messages found in the request
+2025-01-25 08:03:15 [32minfo[39m: POST /webhook
+2025-01-25 08:03:15 [33mwarn[39m: No messages found in the request
+2025-01-25 08:06:53 [32minfo[39m: POST /api/messages
+2025-01-25 08:06:54 [31merror[39m: Failed to send message to 96566768204: Converting circular structure to JSON
+    --> starting at object with constructor 'ClientRequest'
+    |     property 'res' -> object with constructor 'IncomingMessage'
+    --- property 'req' closes the circle
+2025-01-25 08:06:55 [32minfo[39m: POST /webhook
+2025-01-25 08:06:55 [32minfo[39m: Message ID wamid.HBgLOTY1NjY3NjgyMDQVAgARGBIxQTQwNTFCQjBEQzRDRDQ5RUEA status: sent at 1737781614
+2025-01-25 08:06:55 [32minfo[39m: POST /webhook
+2025-01-25 08:06:55 [32minfo[39m: Message ID wamid.HBgLOTY1NjY3NjgyMDQVAgARGBIxQTQwNTFCQjBEQzRDRDQ5RUEA status: delivered at 1737781614
+2025-01-25 08:06:56 [32minfo[39m: POST /webhook
+2025-01-25 08:06:56 [32minfo[39m: Message ID wamid.HBgLOTY1NjY3NjgyMDQVAgARGBIxQTQwNTFCQjBEQzRDRDQ5RUEA status: delivered at 1737781614
+2025-01-25 08:07:52 [32minfo[39m: POST /webhook
+2025-01-25 08:07:52 [32minfo[39m: Message ID wamid.HBgLOTY1NjY3NjgyMDQVAgARGBIxQTQwNTFCQjBEQzRDRDQ5RUEA status: read at 1737781670
+2025-01-25 08:07:52 [32minfo[39m: POST /webhook
+2025-01-25 08:07:52 [32minfo[39m: Message ID wamid.HBgLOTY1NjY3NjgyMDQVAgARGBIwMUMyOTVBRTM1MzQ5Q0Q3NUMA status: read at 1737781670
