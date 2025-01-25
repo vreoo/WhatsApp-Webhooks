@@ -1,0 +1,15 @@
+2025-01-24 22:21:59 [31merror[39m: Failed to send message to 96566768204: undefined
+2025-01-24 22:21:59 [31merror[39m: Failed to send message to 96566768204: Invalid status code: undefined
+2025-01-24 22:25:51 [31merror[39m: Failed to send message to 96566768204: undefined
+2025-01-24 22:25:51 [31merror[39m: Failed to send message to 96566768204: Invalid status code: undefined
+2025-01-24 22:28:19 [31merror[39m: Failed to send message to 96566768204: undefined
+2025-01-24 22:28:19 [31merror[39m: Failed to send message to 96566768204: Invalid status code: undefined
+2025-01-24 22:29:12 [31merror[39m: Failed to send message to 96566768204: response.toJS is not a function
+2025-01-25 08:00:54 [31merror[39m: Failed to send message to 96566768204: undefined
+2025-01-25 08:00:54 [31merror[39m: Failed to send message to 96566768204: Invalid status code: undefined
+2025-01-25 08:02:40 [31merror[39m: Failed to send message to 96566768204: undefined
+2025-01-25 08:02:40 [31merror[39m: Failed to send message to 96566768204: Invalid status code: undefined
+2025-01-25 08:06:54 [31merror[39m: Failed to send message to 96566768204: Converting circular structure to JSON
+    --> starting at object with constructor 'ClientRequest'
+    |     property 'res' -> object with constructor 'IncomingMessage'
+    --- property 'req' closes the circle
